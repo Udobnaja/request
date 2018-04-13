@@ -1,0 +1,30 @@
+{
+  "name": "lesson-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.js --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "eslint --ignore-path .gitignore .",
+    "lint:js:fix": "eslint --fix --ignore-path .gitignore ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^4.19.0",
+    "eslint-config-yandex": "^1.0.6",
+    "gh-pages": "^1.1.0",
+    "parcel-bundler": "^1.7.0",
+    "prettier": "^1.11.1"
+  }
+}
